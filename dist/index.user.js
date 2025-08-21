@@ -50,6 +50,12 @@
         #header_container > #profile {
             margin-left: 30px;
         }
+
+        @media(max-width: 850px) {
+            #content {
+                padding-top: 90px;
+            }
+        }
         `;
         document.head.appendChild(styleSheet);
 
